@@ -1,8 +1,8 @@
 const http = require('http');
 
-http.createServer(function(req, res){
-	res.write("chicken dj");
-	res.end();
+http.createServer(function (req, res) {
+  res.write("chicken dj");
+  res.end();
 }
 ).listen(3000);
 

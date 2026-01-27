@@ -1,0 +1,34 @@
+<html>
+  <head></head>
+  <body>
+    pelado
+    mono
+    fucking
+    nutella
+    dr
+    coas
+    quillo
+    uanchope
+    rata
+    moreira
+    cuchi
+    lini
+    gonzaloas
+    rino
+    profe
+    tito
+    renja
+    
+    Chicken dj!
+
+    <script>
+       let ws;
+
+       const proto = window.location.protocol === 'https:' ? 'wss' : 'ws';
+
+       ws = new WebSocket(`${proto}://${window.location.host}`);
+
+       ws.onmessage = (event) => {console.log(event.data)};
+    </script>
+  </body>
+</html>
